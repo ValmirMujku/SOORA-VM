@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './images/logo.png';
+
+import NavMen from "./components/NavMen";
+import Words from "./components/Words";
+import Stores from "./components/Stores";
+import LoadingIMG1 from "./components/LoadingIMG1";
+import LImg from "./images/landing-image-1.png";
+import LImg2 from "./images/landing-image-2.png";
+import NotifyMe from "./components/NotifyMe";
+import SocialN from "./components/SocialN";
 
 function App() {
+  const wrd1 = "Bringing \n Muslims Together";
+  const wrd2 = "Get Notified \n When We Launch";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavMen />
+      <Words wrd={wrd1} />
+      <Stores />
+      <LoadingIMG1 srcimg={LImg} />
+      <Words wrd={wrd2} />
+      <NotifyMe />
+      <LoadingIMG1 srcimg={LImg2} />
+      <SocialN />
+    </>
   );
 }
 

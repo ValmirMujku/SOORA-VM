@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Inter-Bold";
+    src: local("Inter-Bold"), url("../fonts/Inter-Regular.ttf") format("truetype");
+}
+
+.NotifyContainer {
+    border: 1px solid black;
+    margin: auto;
+    left: 50%;
+    right: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px;
+    width: 60vw;
+}
+
+#bbt {
+    margin: 0.6vw;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    padding: 2vw 3vw 2vw 3vw;
+    font-size: 3vw;
+    font-family: Inter-Bold;
+}
+
+.note {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-family: Inter-Bold;
+    font-size: 3vw;
+    margin-top: 1vw;
+}

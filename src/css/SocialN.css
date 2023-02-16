@@ -1,0 +1,18 @@
+#sc {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 4vw;
+    padding: 1.5vw;
+}
+
+.socialCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+}

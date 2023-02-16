@@ -1,0 +1,24 @@
+/* @font-face {
+    font-family: "Inter-Bold";
+    src: local("Inter-Bold"), url("../fonts/Inter-Bold.ttf") format("truetype");
+} */
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: local("Inter-Bold"), url("../fonts/Inter-Regular.ttf") format("truetype");
+}
+
+h5 {
+    font-family: Inter-Bold;
+    font-weight: bolder;
+}
+
+.div1 {
+    text-align: center;
+}
+
+.css-fix {
+    font-family: Inter-Bold;
+    white-space: pre-wrap;
+    font-size: 9vw;
+}
